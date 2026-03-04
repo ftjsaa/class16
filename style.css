@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-box{
+    width: 430px;
+    min-height: 380px;
+    /* border: 1px solid; */
+    margin: 30px auto 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #878484;
+    padding: 50px 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.login-box h1{
+    font-size: 36px;
+}
+
+form > input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 18px;
+    border: 1px solid gray;
+    outline: none;
+}
+form > {
+    display: flex;
+    justify-content: space-between;   
+}
+
+a{
+    color: #3b81F6;
+    font-weight: 400;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    border: none;
+    background-color: #3b81F6;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 20px 0;
+}
